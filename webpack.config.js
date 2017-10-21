@@ -4,7 +4,6 @@ module.exports = {
   context: path.join(__dirname, 'src'),
   entry: [
     './main.js',
-    './css/main.css',
   ],
   output: {
     path: path.join(__dirname, 'www'),
